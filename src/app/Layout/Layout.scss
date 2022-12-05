@@ -1,0 +1,14 @@
+.layoutWrap{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    .left{
+        width: 50vw;
+        height: 100vh;
+        border-right: 1px solid black;
+    }
+    .right{
+        width: 50vw;
+        height: 100vh;
+    }
+}
